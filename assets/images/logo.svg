@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 75" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wibGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1ba" />
+      <stop offset="50%" stop-color="#d8b24c" />
+      <stop offset="100%" stop-color="#aa8628" />
+    </linearGradient>
+    <linearGradient id="wibPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9ebb" />
+      <stop offset="100%" stop-color="#e8658d" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <title>Women In Business Logo</title>
+  <desc>Logo vectoriel officiel de Women In Business — Révélez votre potentiel</desc>
+
+  <!-- EMBLEME (Couronne / Lotus en diamant doré & rose brillant) -->
+  <g transform="translate(6, 4)" filter="url(#glow)">
+    <!-- Diamant extérieur doré -->
+    <path d="M 33 2 L 64 33 L 33 64 L 2 33 Z" fill="none" stroke="url(#wibGold)" stroke-width="2.5"/>
+    <!-- Diamant intérieur rose clair -->
+    <path d="M 33 9 L 57 33 L 33 57 L 9 33 Z" fill="rgba(255, 255, 255, 0.08)" stroke="url(#wibPink)" stroke-width="1.8"/>
+    
+    <!-- Silhouette stylisée "W" / Couronne / Lotus au centre (BLANC & OR pour contraste maximal) -->
+    <path d="M 17 29 L 24 46 L 33 31 L 42 46 L 49 29" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Point diamant doré au sommet -->
+    <circle cx="33" cy="20" r="4" fill="url(#wibGold)" />
+  </g>
+
+  <!-- TYPOGRAPHIE CLAIRE ET COMPLÈTE (ViewBox élargi à 480 pour ne jamais couper le S final) -->
+  <g transform="translate(84, 0)" filter="url(#glow)">
+    <!-- Nom : WOMEN IN BUSINESS en BLANC PUR -->
+    <text x="0" y="38" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="1.2">WOMEN IN BUSINESS</text>
+    
+    <!-- Ligne dorée d'accentuation -->
+    <rect x="0" y="47" width="65" height="3" rx="1.5" fill="url(#wibGold)" />
+    
+    <!-- Slogan : RÉVÉLEZ VOTRE POTENTIEL -->
+    <text x="75" y="52" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="700" fill="#ff8dae" letter-spacing="3.0">RÉVÉLEZ VOTRE POTENTIEL</text>
+  </g>
+</svg>
